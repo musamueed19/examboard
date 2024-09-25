@@ -1,0 +1,92 @@
+.block {
+    display: block;
+}
+.form {
+    margin-top: 0.5rem;
+}
+
+.required {
+    color: red;
+}
+
+.label {
+    font-weight:500;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #2a3343;
+}
+
+.inputsContainer {
+    width: 100%;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #c6c6c6;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+}
+.inputsIcon {
+    display: inline;
+}
+.input {
+    margin-left: 0.6rem;
+    display: inline;
+    max-width: 80%;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.inputsContainer:focus-within {
+    border-color: black;
+}
+
+.fieldsContainer {
+    margin-bottom: 1rem;
+}
+
+.loginSupport {
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.termsAndConditions {
+    color: #8b8e98;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.forgotPassword {
+    font-weight: 500;
+    color: #3FA2F7;
+    font-size: 1rem;
+}
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
+.tooglePassword {
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+}
+
+.btn {
+    color: white;
+    /* background-color: #1f66ff; */
+    background-color: #2C76FE;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(1, 60, 197);
+}
