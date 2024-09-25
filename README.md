@@ -1,5 +1,5 @@
-# Examboard
-**REACT Group Batch-17: Final Year Project**
+## ***REACT Group Batch-17: Final Year Project***
+# Examboard:
 
 ## Cloning the Repository
 
