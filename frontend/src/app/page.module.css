@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #00214F;
+    font-family: 'IBM Plex Serif';
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #E6E6E6;
+}
+.navBody {
+    padding: 1.2rem;
+}
+
+.ul {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.li {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.8rem;
+
+}
+.li a {
+    margin-left: 0.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.active {
+    background: #0C7DFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.active img {
+   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  /* The filter will change the color to white */
+}
+
+.settings {
+    display: flex;
+    border-top: 2px solid #E6E6E6;
+    padding: 1.5rem 2rem;
+}
+.settings a {
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+
+.main {
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0 2rem;
+}
+
+.profilers {
+    padding: 0.8rem 0;
+    display: flex;
+    width: 10%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.header img {
+    cursor: pointer;
+}
+.userIcon {
+    background: #efefef;
+    padding: 0.6rem;
+    border-radius: 100%;
+}
+.userIcon:hover {
+    background: #E6E6E6;
+}

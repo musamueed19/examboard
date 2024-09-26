@@ -55,7 +55,7 @@ function LoginForm() {
         </div>
       </div>
       <div className={classes.loginSupport}>
-        <Link href="/" className={classes.forgotPassword}>
+        <Link href="/auth/forgotpassword" className={classes.forgotPassword}>
           Forgot Password?
         </Link>
       </div>
