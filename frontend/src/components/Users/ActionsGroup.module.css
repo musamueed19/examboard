@@ -1,0 +1,16 @@
+.btn {
+    border: 1px solid #226FFE;
+    background-color: #226FFE;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.btn img {
+    margin-right: 0.5rem;
+    width: 1.3rem;
+}

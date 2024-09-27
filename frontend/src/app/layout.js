@@ -1,4 +1,5 @@
 import "./globals.css";
+import HomeLayout from "./HomeLayout";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,7 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        {/* {children} */}
+        <HomeLayout children={children} activeTab={'home'} />
       </body>
     </html>
   );

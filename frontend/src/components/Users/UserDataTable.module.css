@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  padding: 0 1rem;
+}
+
+.container table {
+  /* padding: 0 0.5rem; */
+  width: 100%;
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.container select {
+    font-weight: normal;
+    color: #333;
+    font-size: 1rem;
+    border: 1px solid #909192;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+}

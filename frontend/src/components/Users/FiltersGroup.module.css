@@ -1,0 +1,44 @@
+.filtersContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.searchContainer {
+    display: flex;
+    flex-flow: column wrap;
+}
+.searchContainer label {
+    font-weight: bold;
+    color: #333;
+}
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #909192;
+    border-radius: 5px;
+    padding: 0 0.4rem;
+}
+.searchbar input {
+    padding: 0.4rem 0;
+    outline: none;
+}
+.searchbar:hover {
+    border: 1.5px solid #226FFE;  
+}
+.roleContainer {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 1rem;
+}
+.roleContainer label {
+    
+    font-weight: bold;
+}
+.roleDropdown {
+    padding: 0.4rem;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+}
